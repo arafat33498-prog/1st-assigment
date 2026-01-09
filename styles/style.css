@@ -177,3 +177,45 @@ a{
     line-height: 20px;
     color: #627382;
 }
+.idea {
+    display: flex;
+    justify-content: center ;
+    gap: 100px;
+    margin-top: 200px;
+}
+.idea-text h4 {
+ font-size: 16px;
+ color: #469165;
+}
+.idea-text h1{
+  font-size: 48px;
+}
+.idea-text h5{
+  font-size: 16px;
+  font-weight: normal;
+  color: #627382;
+}
+.idea-text h4{
+    margin-bottom: 10px;
+}
+.idea-text h1{
+    margin-bottom: 10px;
+    color: #001931;
+    font-style: bold;
+}
+.idea-text h5{
+    margin-bottom: 20px;
+}
+.idea-text p{
+    margin-bottom: 6px;
+    
+}
+.idea-text{
+    text-align: left;
+    margin-top: 100px;
+}
+.chek-mark img {
+    vertical-align: middle;
+    
+}
+
