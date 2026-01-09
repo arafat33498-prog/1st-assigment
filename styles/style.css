@@ -216,6 +216,43 @@ a{
 }
 .chek-mark img {
     vertical-align: middle;
-    
-}
 
+}
+#challenge{
+    display: flex;
+    justify-content: center ;
+   background-color: #F7F6F2;
+   margin-top: 100px;
+    border-radius: 12px;
+    padding: 80px 40px 80px 40px ;
+    margin-left: 14.3%;
+    margin-right: 13.3%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#challenge h1{
+    font-size: 40px;
+    font-style: bold;
+    color: #001931;
+    margin-top: 10px;
+}
+#challenge p{
+    font-size: 16px;
+    color: #627382;
+    margin-top: 10px;
+
+}
+#challenge button{
+     background-color: #469165;
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 16px;
+    cursor: pointer;
+}
+#challenge button:hover{
+    background-color: green;
+
+}
