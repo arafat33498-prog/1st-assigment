@@ -164,18 +164,25 @@ a{
     width: 32px;
     height: 32px;
     margin-bottom: 15px;
+    padding: 6px;
+}
+.card:hover{
+    background-color: #001931;
+    color: white;
+
+
 }
 .card h1{
     font-size: 24px;
     line-height: 100%;
-    color: #001931;
+    
     margin-bottom: 15px;
     font-style: semi bold;
 }
 .card p{
     font-size: 16px;
     line-height: 20px;
-    color: #627382;
+
 }
 .idea {
     display: flex;
@@ -231,6 +238,10 @@ a{
     text-align: center;
     margin-bottom: 10px;
 }
+#challenge div span img{
+    vertical-align: middle;
+    margin-left: 4px;
+}
 #challenge h1{
     font-size: 40px;
     font-style: bold;
@@ -255,4 +266,28 @@ a{
 #challenge button:hover{
     background-color: green;
 
+}
+#ftr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #001931;
+    padding: 80px 40px 80px 40px;
+    color: #FFFFFF;
+}
+.footer{
+text-align: center;
+color: #FAFAFA;
+padding: 20px 30px 20px 30px;
+background-color: #001931;
+
+}
+#ftr h3{
+    text-align: center;
+}
+.ftr-line{
+  color:#E5E7EB ;
+  margin-bottom: 20px;
+  opacity: 20%;
 }
